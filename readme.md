@@ -158,39 +158,42 @@ data on reminder effectiveness.
 
 ## Project Structure
 
+```
 healthcare-noshow-analysis/
 │
 ├── data/
-│ ├── KaggleV2-May-2016.csv # raw dataset (not modified)
-│ └── cleaned_appointments.csv # cleaned dataset
+│   ├── KaggleV2-May-2016.csv
+│   └── cleaned_appointments.csv
 │
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ └── EDA.ipynb # full analysis notebook
+│   ├── 01_data_cleaning.ipynb
+│   └── EDA.ipynb
 │
 ├── sql/
-│ ├── 01_total_appointments.sql
-│ ├── 02_noshow_by_neighbourhood.sql
-│ ├── 03_noshow_by_age_group.sql
-│ ├── 04_noshow_by_weekday.sql
-│ ├── 05_sms_effectiveness.sql
-│ └── 06_noshow_by_days_between.sql
+│   ├── 01_total_appointments.sql
+│   ├── 02_noshow_by_neighbourhood.sql
+│   ├── 03_noshow_by_age_group.sql
+│   ├── 04_noshow_by_weekday.sql
+│   ├── 05_sms_effectiveness.sql
+│   └── 06_noshow_by_days_between.sql
 │
 ├── dashboard/
-│ ├── chart_chronic_conditions.png
-│ ├── chart_condition_count.png
-│ ├── chart_days_between.png
-│ ├── chart_noshow_by_age.png
-│ ├── chart_noshow_by_neighbourhood.png
-│ ├── chart_noshow_by_weekday.png
-│ ├── chart_revenue_loss.png
-│ ├── chart_sms_effectiveness.png
-│ ├── page1_executive_summary.png
-│ ├── page2_patient_segmentation.png
-│ ├── page2_filtered_alcoholism.png
-│ └── dashboard.pbix
+│   ├── chart_chronic_conditions.png
+│   ├── chart_condition_count.png
+│   ├── chart_days_between.png
+│   ├── chart_noshow_by_age.png
+│   ├── chart_noshow_by_neighbourhood.png
+│   ├── chart_noshow_by_weekday.png
+│   ├── chart_revenue_loss.png
+│   ├── chart_sms_effectiveness.png
+│   ├── page1_executive_summary.png
+│   ├── page2_patient_segmentation.png
+│   ├── page2_filtered_alcoholism.png
+│   └── dashboard.pbix
 │
 └── README.md
+```
+
 ---
 
 ## Dataset
